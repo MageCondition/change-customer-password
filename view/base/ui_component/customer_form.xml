@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="change_password" class="MageCondition\ChangeCustomerPassword\Ui\Component\Form\Element\NewPasswordFieldset">
+        <settings>
+            <label translate="true">Change Password</label>
+        </settings>
+        <field name="new_password" sortOrder="5" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">customer</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>text</dataType>
+                <label>New Password</label>
+            </settings>
+        </field>
+    </fieldset>
+</form>

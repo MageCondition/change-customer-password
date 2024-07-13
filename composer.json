@@ -1,0 +1,22 @@
+{
+    "name": "mage-condition/change-customer-password",
+    "description": "Module allows to change customer password from BO",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~8.1.0|~8.2.0|~8.3.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageCondition\\ChangeCustomerPassword\\": ""
+        }
+    }
+}
