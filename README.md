@@ -1,7 +1,60 @@
-Change customer password in Adobe Commerce (Magento 2) from BO
+# Change Customer Password in Magento 2 (Adobe Commerce) from ADMIN
 
-Minimalistic module to change customer password from back-office
+![Magento 2](https://img.shields.io/badge/Magento-2-brightgreen.svg)
+![License](https://img.shields.io/badge/license-OSL-blue.svg)
 
-Installation
+## Overview
 
-composer require mage-condition/change-customer-password
+**Change Customer Password** is a minimalistic module designed to allow administrators to change customer passwords directly from the back-office (admin panel).
+
+## Features
+
+- Change customer passwords directly from the admin panel.
+- Simple and intuitive interface for ease of use.
+- Lightweight and minimal impact on system performance.
+
+## Installation
+
+Follow these steps to install the module:
+
+1. **Require the module via Composer**
+
+    ```bash
+    composer require mage-condition/change-customer-password
+    ```
+
+2. **Run Magento setup upgrade**
+
+    ```bash
+    php bin/magento setup:upgrade
+    ```
+
+3. **Clear the cache**
+
+    ```bash
+    php bin/magento cache:clean
+    ```
+
+## Usage
+
+1. Navigate to the **Customers** section in the Magento admin panel.
+2. Select the customer whose password you wish to change.
+3. Use the new interface provided by the module to set a new password for the customer.
+![img.png](https://i.postimg.cc/KYpZNY2N/img.png)
+4. Save the changes.
+
+## Compatibility
+
+- PHP 8.0 or higher
+- Magento Open Source (CE) 2.4.x
+- Adobe Commerce (EE) 2.4.x
+
+## Support
+
+If you encounter any issues or have questions regarding the module, please open an issue on the [GitHub repository](https://github.com/MageCondition/change-customer-password/issues).
+
+You can also reach us via email at [wincondition2911@gmail.com](mailto:wincondition2911@gmail.com).
+
+## License
+
+This module is licensed under the Open Software License (OSL). See the [LICENSE](https://opensource.org/licenses/OSL-3.0) for more details.
