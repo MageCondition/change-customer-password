@@ -3,7 +3,7 @@
     "description": "Module allows to change customer password from ADMIN",
     "minimum-stability": "stable",
     "require": {
-        "php": "~8.1.0|~8.2.0|~8.3.0"
+        "php": "^8.0"
     },
     "type": "magento2-module",
     "version": "1.0.0",
