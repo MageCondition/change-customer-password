@@ -1,11 +1,11 @@
-# Change Customer Password in Magento 2 (Adobe Commerce) from ADMIN
+# Change Customer Password in Magento 2 from Admin
 
 ![Magento 2](https://img.shields.io/badge/Magento-2-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-OSL-blue.svg)
 
 ## Overview
 
-**Change Customer Password** is a minimalistic module designed to allow administrators to change customer passwords directly from the back-office (admin panel).
+**Change Customer Password** is a minimalistic module that allows administrators to change customer passwords directly from the back-office (admin panel).
 
 ## Features
 
@@ -40,7 +40,7 @@ Follow these steps to install the module:
 1. Navigate to the **Customers** section in the Magento admin panel.
 2. Select the customer whose password you wish to change.
 3. Use the new interface provided by the module to set a new password for the customer.
-![img.png](https://i.postimg.cc/KYpZNY2N/img.png)
+<img width="1593" alt="image" src="https://github.com/user-attachments/assets/4de4e8c8-afe8-406e-a18c-e1803a87ac1a">
 4. Save the changes.
 
 ## Compatibility
