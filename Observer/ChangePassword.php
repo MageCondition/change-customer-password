@@ -25,7 +25,7 @@ class ChangePassword implements ObserverInterface
         $customer = $observer->getEvent()->getCustomer();
         $changePassword = $observer->getEvent()->getRequest()->getPost('change_password');
         if ($changePassword['new_password']) {
-            $this->passwordManager->setNewPassword($customer->getId(), $changePassword['new_password']);
+            $this->passwordManager->setNewPassword((int) $customer->getId(), $changePassword['new_password']);
         }
     }
 }
