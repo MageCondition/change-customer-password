@@ -1,6 +1,6 @@
 {
     "name": "mage-condition/change-customer-password",
-    "description": "Module allows to change customer password from ADMIN",
+    "description": "Magento 2. Change customer password extension",
     "minimum-stability": "stable",
     "require": {
         "php": "^8.0"
