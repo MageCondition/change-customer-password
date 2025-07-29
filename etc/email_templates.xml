@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Mail/etc/email_templates.xsd">
+    <template id="magecondition_change_customer_password" label="Notify Customer About New Password" file="notify_customer.html" type="html" module="MageCondition_ChangeCustomerPassword" area="frontend"/>
+</config>

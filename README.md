@@ -13,6 +13,7 @@
 - Simple and intuitive interface for ease of use.
 - Lightweight and minimal impact on system performance.
 - ACL (Access Control List) capabilities to enable or disable functionality for admin users.
+- Optionally notify customers about their new password via email.
 
 ## Installation
 

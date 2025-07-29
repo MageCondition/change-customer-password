@@ -15,5 +15,22 @@
                 <label>New Password</label>
             </settings>
         </field>
+        <field name="notify_customer" sortOrder="10" formElement="checkbox">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="source" xsi:type="string">customer</item>
+                    <item name="default" xsi:type="boolean">false</item>
+                </item>
+            </argument>
+            <settings>
+                <dataType>boolean</dataType>
+                <label translate="true">Notify Customer</label>
+                <notice translate="true">send new password to the customer via email</notice>
+                <valueMap>
+                    <map name="true" value="1"/>
+                    <map name="false" value="0"/>
+                </valueMap>
+            </settings>
+        </field>
     </fieldset>
 </form>
